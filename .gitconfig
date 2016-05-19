@@ -1,0 +1,29 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[user]
+	email = Tomasz.Wegrzanowski@gmail.com
+	name = Tomasz Wegrzanowski
+[core]
+	editor = atom -w
+	fileMode = false
+	excludesfile = /Users/taw/.gitignore_global
+	pager = less -F -X
+	attributesfile = /Users/taw/.gitattributes
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	ls = ls-files
+	sx = status --ignored --porcelain
+	wdiff = diff --word-diff
+	unstage = reset HEAD --
+	master = checkout master
+	up = !git pull && git push
+[push]
+	default = matching
+[diff "json"]
+	textconv = json_pp
