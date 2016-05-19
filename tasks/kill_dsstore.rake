@@ -1,3 +1,5 @@
+require "pathname"
+
 desc "Kill all ~/.DS_Store files"
 task "dsstore:kill" do
   killed = 0

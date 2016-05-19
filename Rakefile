@@ -1,3 +1,5 @@
+Rake.add_rakelib "#{__dir__}/tasks"
+
 desc "List inbox items"
 task "status"
 
