@@ -24,7 +24,5 @@
   up = !git pull && git push
   wdiff = diff --word-diff
   cdiff = diff --word-diff-regex='.' --word-diff
-[push]
-  default = matching
 [diff "json"]
   textconv = json_pp
